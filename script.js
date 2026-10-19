@@ -12,7 +12,7 @@ async function getCharacter() {
         const characterHolder = document.getElementById("characterHolder");
         characterHolder.append(document.createElement('br'));
 
-        // characterHolder.innerHTML = "";
+        characterHolder.textContent = "";
 
         let img = document.createElement('img');
         img.src = json.data[0].imageUrl;
